@@ -1,41 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" role="img" aria-label="Alexandre Cormeraie — applied AI for dev, design and the future of work">
-  <defs>
-    <linearGradient id="wash" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FFD666" stop-opacity="0.14" />
-      <stop offset="45%" stop-color="#FF8AA8" stop-opacity="0.10" />
-      <stop offset="100%" stop-color="#78AFFF" stop-opacity="0.20" />
-    </linearGradient>
-    <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse">
-      <circle cx="1.6" cy="1.6" r="1.15" fill="#FBFAF9" fill-opacity="0.13" />
-    </pattern>
-    <clipPath id="round"><rect x="0" y="0" width="1280" height="320" rx="0" /></clipPath>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" role="img" aria-labelledby="t">
+  <title id="t">Alexandre Cormeraie — Applied AI for dev, design and the future of work.</title>
 
-  <g clip-path="url(#round)">
-    <rect width="1280" height="320" fill="#0B0B0C" />
-    <rect width="1280" height="320" fill="url(#wash)" />
-    <rect width="1280" height="320" fill="url(#dots)" />
+  <!-- the sheet -->
+  <rect width="1280" height="320" fill="#0D1117"/>
 
-    <!-- The selection frame: the thing the whole body of work is about — pointing at
-         something on a screen and being understood. -->
-    <g transform="translate(946 74)" opacity="0.95">
-      <rect x="0" y="0" width="252" height="172" rx="10" fill="#FFFFFF" fill-opacity="0.07" stroke="#0A84FF" stroke-width="2" />
-      <g fill="#0A84FF">
-        <rect x="-4.5" y="-4.5" width="9" height="9" />
-        <rect x="247.5" y="-4.5" width="9" height="9" />
-        <rect x="-4.5" y="167.5" width="9" height="9" />
-        <rect x="247.5" y="167.5" width="9" height="9" />
-      </g>
-      <rect x="26" y="34" width="136" height="13" rx="6.5" fill="#FBFAF9" fill-opacity="0.22" />
-      <rect x="26" y="62" width="200" height="13" rx="6.5" fill="#FBFAF9" fill-opacity="0.13" />
-      <rect x="26" y="90" width="168" height="13" rx="6.5" fill="#FBFAF9" fill-opacity="0.13" />
-      <rect x="26" y="124" width="88" height="26" rx="13" fill="#0A84FF" />
-    </g>
+  <!-- ruled lines -->
+  <g stroke="#FFFFFF" stroke-opacity="0.055" stroke-width="1">
+    <path d="M80 34.5H1280M80 70.5H1280M80 106.5H1280M80 142.5H1280M80 178.5H1280M80 214.5H1280M80 250.5H1280M80 286.5H1280"/>
+  </g>
 
-    <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
-      <text x="82" y="128" font-size="26" font-weight="700" fill="#4FA9FF" letter-spacing="3.4">BUILDING IN PUBLIC</text>
-      <text x="80" y="196" font-size="62" font-weight="700" fill="#FBFAF9" letter-spacing="-2.4">Alexandre Cormeraie</text>
-      <text x="82" y="242" font-size="25" font-weight="500" fill="#A2A7B0" letter-spacing="-0.3">Applied AI for dev, design and the future of work.</text>
+  <!-- margin rule -->
+  <path d="M80.5 0V320" stroke="#4E93F7" stroke-opacity="0.3" stroke-width="1"/>
+
+  <!-- filing punches -->
+  <g fill="#070A0E" stroke="#FFFFFF" stroke-opacity="0.2" stroke-width="1">
+    <circle cx="40" cy="90" r="12.5"/>
+    <circle cx="40" cy="230" r="12.5"/>
+  </g>
+
+  <!-- what was printed -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="156" y="106" font-size="16" font-weight="600" letter-spacing="3.6" fill="#8B939E">DESIGNER-ENGINEER · PARIS</text>
+    <text x="156" y="178" font-size="66" font-weight="600" letter-spacing="-2.2" fill="#EAEDF1">Alexandre Cormeraie</text>
+    <text x="156" y="226" font-size="26" font-weight="400" letter-spacing="-0.15" fill="#A5ADB8">Applied AI for dev, design and the future of work.</text>
+  </g>
+
+  <!-- what was marked by hand -->
+  <g stroke="#4E93F7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M88 164.2C90.6 168.4 95.2 175.4 99.6 181.6C103.4 173.2 111.6 158.6 122.4 143.8" stroke-width="3.2" stroke-opacity="0.95"/>
+    <path d="M122.4 143.8C124.1 141.4 125.6 139.6 126.8 138.4" stroke-width="1.7" stroke-opacity="0.8"/>
+    <path d="M89.2 163.4C91.8 167.6 96.2 174.6 100.4 180.6" stroke-width="1.4" stroke-opacity="0.34"/>
+  </g>
+
+  <!-- the stamp -->
+  <g transform="translate(868 112) rotate(-3.2 170 49)" stroke="#4E93F7" fill="none">
+    <rect x="0" y="0" width="340" height="98" stroke-width="2" stroke-opacity="0.9"/>
+    <rect x="7" y="7" width="326" height="84" stroke-width="1" stroke-opacity="0.5"/>
+    <path d="M52 57H288" stroke-width="0.9" stroke-opacity="0.45"/>
+    <g fill="#4E93F7" stroke="none" text-anchor="middle" fill-opacity="0.92"
+       font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+      <text x="173" y="44" font-size="27" font-weight="700" letter-spacing="6">PRODUCTION</text>
+      <text x="171.4" y="75" font-size="16" font-weight="600" letter-spacing="2.8">OR IT DOES NOT COUNT</text>
     </g>
   </g>
 </svg>
